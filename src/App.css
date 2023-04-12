@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button:not(.li-btn) {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+.import-btn {
+  border: none !important;
+  background-color: white !important;
+  /* padding: 20px; */
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  color: #000 !important;
+  font-size: 20px !important;
+}
+
+button.li-btn {
+  border: none;
+}
+
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.error {
+  color: yellow;
+}
+
+
+.table-header {
+  background-color: #333;
+  color: #000000;
+  padding: 20px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #8d8888;
+}
+
+tr:hover {
+  background-color: #6a6a6a;
+}
+
+
+nav ul {
+  list-style-type: none; /* remove default bullet points */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a,nav li button {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+nav .active {
+  background-color: #ddd;
+  color: #000;
+}
+
+.sample-link {
+  padding: 10px;
+  background-color: #7439db;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.sample-link:hover {
+  background-color: #5c2dab;
+}
